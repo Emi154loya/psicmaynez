@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#FAF8F2" stroke="#C59B27" stroke-width="2.5"/>
+  <!-- Dotted flight arc -->
+  <path d="M12 44 C17 48, 25 46, 28 39" stroke="#2B2B2B" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="2.5 3.5" opacity="0.65"/>
+  <!-- Minimalist fine-line bee -->
+  <g transform="translate(35 28) rotate(-22)">
+    <!-- Wings -->
+    <ellipse cx="-2" cy="-7" rx="5.5" ry="3.8" transform="rotate(-24 -2 -7)" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.7"/>
+    <ellipse cx="3" cy="-6.5" rx="4.5" ry="3.2" transform="rotate(18 3 -6.5)" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="1.7"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="1" rx="8.5" ry="5.5" fill="#FAF8F2" stroke="#2B2B2B" stroke-width="1.8"/>
+    <!-- Stripes -->
+    <path d="M-2.5 -4.2 C-1 -0.8, -1 2.8, -2.5 6.2" stroke="#C59B27" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M2.2 -4.2 C3.4 -0.8, 3.4 2.8, 2.2 6.2" stroke="#2B2B2B" stroke-width="1.7" stroke-linecap="round"/>
+    <!-- Stinger -->
+    <path d="M-8.5 1 L-11 1" stroke="#2B2B2B" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- Antennae -->
+    <path d="M7.5 -1.5 C10 -4.5, 11.5 -4.8, 12.2 -3.5" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M8 1 C11 0, 12.5 0.8, 12.8 2" stroke="#2B2B2B" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

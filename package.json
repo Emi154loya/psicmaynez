@@ -1,0 +1,15 @@
+{
+  "name": "landing-lic-grecia-maynez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page para la Lic. Grecia Pamela Máynez, Psicóloga Infantil en Chihuahua, México.",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./css/styles.css --watch",
+    "dev": "python3 -m http.server 4173"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
